@@ -1,107 +1,86 @@
-/* General Body Styles */
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  background: linear-gradient(to right, #f0f2f0, #e0eafc);
-  color: #2c3e50;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simon Kathulu Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-/* Header */
-header {
-  background: linear-gradient(135deg, #5211cb, #2575fc);
-  color: #fff;
-  padding: 3rem 2rem;
-  text-align: center;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-}
+  <header>
+    <h1>Hi, I'm Simon Kathulu</h1>
+    <p>Software Developer | Tech Enthusiast | Medic | Lifelong Learner</p>
+  </header>
 
-/* Navigation */
-nav {
-  background: #1b1f3b;
-  padding: 1rem;
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Languages</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#interests">Interests</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate developer who loves creating meaningful solutions through code. I'm driven by curiosity, creativity, and a commitment to continuous growth.</p>
+  </section>
 
-nav ul li {
-  display: inline-block;
-  margin: 0 20px;
-}
+  <section id="skills">
+    <h2>Programming Languages</h2>
+    <ul>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>Java</li>
+      <li>C++</li>
+      <li>HTML & CSS</li>
+    </ul>
+  </section>
 
-nav ul li a {
-  color: #f1f1f1;
-  text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s;
-}
+  <section id="education">
+    <h2>Educational Background</h2>
+    <p>Bachelor of Science in Clinical Medicine - MKU (2017 - 2022)</p>
+    <p>Software development - PLP (August 14th to date)</p>
+    <a href="assets/your-cv.pdf" download>Download My CV</a>
+  </section>
 
-nav ul li a:hover {
-  color: #ff9f43;
-}
+  <section id="interests">
+    <h2>Interests</h2>
+    <p>I'm passionate about AI, open-source development, and solving real-world problems with technology. I enjoy collaborating on innovative projects that make an impact.</p>
+  </section>
 
-/* Sections */
-section {
-  padding: 2rem;
-  background: #ffffff;
-  margin: 2rem auto;
-  max-width: 900px;
-  border-radius: 10px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-}
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong>Project 1:</strong> A basic calculator python program. 
+        <a href="https://github.com/Sim047/Basic-calculator.git" target="_blank">View on GitHub</a>
+      </li>
+      <li>
+        <strong>Project 2:</strong> A basic introduction to Web Development html 5 code. 
+        <a href="https://github.com/PLP-WebTechnologies/july-2025-introduction-to-html-5-Sim047.git" target="_blank">View on GitHub</a>
+      </li>
+    </ul>
+  </section>
 
-/* Footer */
-footer {
-  text-align: center;
-  padding: 1.5rem;
-  background: #1b1f3b;
-  color: #f1f1f1;
-  font-size: 0.9rem;
-}
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Simon Kathulu" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="form-message"></p>
+  </section>
 
-/* Form Styles */
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
+  <footer>
+    <p>&copy; 2025 Simon Kathulu. All rights reserved.</p>
+  </footer>
 
-form input,
-form textarea {
-  padding: 12px;
-  border-radius: 6px;
-  border: 1px solid #dcdcdc;
-  font-size: 1rem;
-  transition: border 0.3s, box-shadow 0.3s;
-}
-
-form input:focus,
-form textarea:focus {
-  border-color: #6a11cb;
-  box-shadow: 0 0 8px rgba(106, 17, 203, 0.2);
-  outline: none;
-}
-
-/* Button */
-button {
-  padding: 12px;
-  background: linear-gradient(135deg, #ff6a00, #ee0928);
-  color: white;
-  font-weight: bold;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background 0.3s, transform 0.2s;
-}
-
-button:hover {
-  background: linear-gradient(135deg, #ee092f, #ff6a00);
-  transform: scale(1.05);
-}
+  <script src="script.js"></script>
+</body>
+</html>
