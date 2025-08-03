@@ -17,7 +17,7 @@ A short intro describing my passion, career goals, and values.
 A list of programming languages I am proficient in (e.g., JavaScript, Python, C++, etc.).
 
 ### 🔹 Education
-Your academic background and a downloadable CV.
+My academic background and a downloadable CV.
 
 ### 🔹 Interests
 Tech topics I am passionate about (e.g., AI, open source, automation).
@@ -36,4 +36,5 @@ Simple contact form with success feedback message (no backend, but extendable).
    ```bash
    git clone https://github.com/Sim047/Simon-Kathulu-Portfolio.git
    cd portfolio-website
+
 
