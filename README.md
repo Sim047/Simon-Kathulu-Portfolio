@@ -34,5 +34,6 @@ Simple contact form with success feedback message (no backend, but extendable).
 
 1. **Clone the repository:**
    ```bash
-   git clone [Paste repository link]
+   git clone https://github.com/Sim047/Simon-Kathulu-Portfolio.git
    cd portfolio-website
+
